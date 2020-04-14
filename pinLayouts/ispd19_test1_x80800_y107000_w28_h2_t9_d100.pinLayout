@@ -1,0 +1,312 @@
+a   PinLayout Format for P&R
+a   Authors:     ilgweon Kang, Dongwon Park, Daeyeal Lee, Chung-Kuan Cheng
+a   Pin Placement Testcase Generation::  DesignName = ispd19_test1_x80.8_y107_w20_h2
+a   Vertical Obstacle Width  = 4
+a   X/Y Position of SW Box   = (80800, 107800) (82800, 105400) nm
+a   Width of Routing Clip    = 20
+a   Height of Routing Clip   = 2
+a   Tracks per Placement Row = 9
+a   DIE Layout Information
+a      Units Distance Microns = 2000
+a      DIE Size = 148.4 um / 146 um
+a      DIE Offset = 1 um / 1 um
+a   Standard Cell Information
+a      Row Height = 1.2 um
+a      H_Width/H_Space = 50 nm / 50 nm
+a      V_Width/V_Space = 50 nm / 50 nm
+a      V_Offset/H_Offset = 200 nm / 0 nm
+i   ===STDCellInfo===
+i   STDID STDType Direction InstName
+i   std4399 STD73 FS inst4400
+i   std4199 STD73 FS inst4200
+i   std4063 STD73 FS inst4064
+i   std4330 STD66 N inst4331
+i   std4266 STD4 N inst4267
+i   ===BinInfo===
+i   BinID PinID STDID STDType Direction XPos YPos
+i   bin46182 pin17797 std4399 STD73 FS 0 0
+i   bin46183 null std4399 STD73 FS 1 0
+i   bin46184 pin17796 std4399 STD73 FS 2 0
+i   bin46185 null std4399 STD73 FS 3 0
+i   bin46186 pin17794 std4399 STD73 FS 4 0
+i   bin46187 null std4399 STD73 FS 5 0
+i   bin46188 pin17795 std4399 STD73 FS 6 0
+i   bin46189 null std4399 STD73 FS 7 0
+i   bin46190 pin17798 std4399 STD73 FS 8 0
+i   bin46191 pin17084 std4199 STD73 FS 9 0
+i   bin46192 null std4199 STD73 FS 10 0
+i   bin46193 pin17083 std4199 STD73 FS 11 0
+i   bin46194 null std4199 STD73 FS 12 0
+i   bin46195 pin17081 std4199 STD73 FS 13 0
+i   bin46196 null std4199 STD73 FS 14 0
+i   bin46197 pin17082 std4199 STD73 FS 15 0
+i   bin46198 null std4199 STD73 FS 16 0
+i   bin46199 pin17085 std4199 STD73 FS 17 0
+i   bin46200 pin16626 std4063 STD73 FS 18 0
+i   bin46201 null std4063 STD73 FS 19 0
+i   bin47646 null std4266 STD4 N 0 1
+i   bin47647 null std4266 STD4 N 1 1
+i   bin47648 null std4266 STD4 N 2 1
+i   bin47649 null std4266 STD4 N 3 1
+i   bin47650 null std4266 STD4 N 4 1
+i   bin47651 null std4266 STD4 N 5 1
+i   bin47652 null std4266 STD4 N 6 1
+i   bin47653 null std4266 STD4 N 7 1
+i   bin47654 null std4266 STD4 N 8 1
+i   bin47655 null std4266 STD4 N 9 1
+i   bin47656 pin17322 std4266 STD4 N 10 1
+i   bin47657 null std4266 STD4 N 11 1
+i   bin47658 null std4266 STD4 N 12 1
+i   bin47659 null std4266 STD4 N 13 1
+i   bin47660 null std4266 STD4 N 14 1
+i   bin47661 pin17563 std4330 STD66 N 15 1
+i   bin47662 null std4330 STD66 N 16 1
+i   bin47663 null std4330 STD66 N 17 1
+i   bin47664 null std4330 STD66 N 18 1
+i   bin47665 null std4330 STD66 N 19 1
+i   ===NetInfo===
+i   NetID NetName N-PinNet PinList
+i   net292 net293 3PinNet pin14175 pin14180 pin16626
+i   net307 net308 2PinNet pin17561 pin17795
+i   net348 net349 3PinNet pin15892 pin16142 pin17082
+i   net368 net369 3PinNet pin17563 pin18244 pin17797
+i   net563 net564 2PinNet pin17094 pin17796
+i   net564 net565 3PinNet pin17092 pin17329 pin17083
+i   net789 net790 2PinNet pin16633 pin17794
+i   net790 net791 3PinNet pin17081 pin17086 pin17322
+i   net988 net989 4PinNet pin16158 pin17318 pin17564 pin17084
+i   net1379 net1380 2PinNet pin16855 pin17085
+i   net2662 net2663 2PinNet pin18052 pin17798
+i   ===PinInfo===
+i   PinID NetID StdID PinName PinDirection XPos YPos Length StartTrack
+i   pin16626 net292 std4063 B1 s 18 0 4 2
+i   pin17081 net790 std4199 A0 t 13 0 4 3
+i   pin17082 net348 std4199 A1 s 15 0 4 3
+i   pin17083 net564 std4199 B0 s 11 0 4 4
+i   pin17084 net988 std4199 B1 s 9 0 4 2
+i   pin17085 net1379 std4199 Y s 17 0 3 3
+i   pin17322 net790 std4266 Q s 10 1 4 3
+i   pin17563 net368 std4330 A t 15 1 3 2
+i   pin17794 net789 std4399 A0 s 4 0 4 3
+i   pin17795 net307 std4399 A1 s 6 0 4 3
+i   pin17796 net563 std4399 B0 s 2 0 4 4
+i   pin17797 net368 std4399 B1 s 0 0 4 2
+i   pin17798 net2662 std4399 Y s 8 0 3 3
+i   pin14175 net292 std3371 A1 t -1 -1 -1 -1
+i   pin14180 net292 std3372 A1 t -1 -1 -1 -1
+i   pin15892 net348 std3862 A1 t -1 -1 -1 -1
+i   pin16142 net348 std3925 A1 t -1 -1 -1 -1
+i   pin16158 net988 std3928 C1 t -1 -1 -1 -1
+i   pin16633 net789 std4065 A t -1 -1 -1 -1
+i   pin16855 net1379 std4131 D t -1 -1 -1 -1
+i   pin17086 net790 std4200 A t -1 -1 -1 -1
+i   pin17092 net564 std4201 Q t -1 -1 -1 -1
+i   pin17094 net563 std4201 SI t -1 -1 -1 -1
+i   pin17318 net988 std4265 B1 t -1 -1 -1 -1
+i   pin17329 net564 std4268 A t -1 -1 -1 -1
+i   pin17561 net307 std4329 A t -1 -1 -1 -1
+i   pin17564 net988 std4330 Y t -1 -1 -1 -1
+i   pin18052 net2662 std4471 B t -1 -1 -1 -1
+i   pin18244 net368 std4527 Y t -1 -1 -1 -1
+====================================================================================
+bin 4618246183461844618546186461874618846189461904619146192461934619446195461964619746198461994620046201
+std s4399s4399s4399s4399s4399s4399s4399s4399s4399s4199s4199s4199s4199s4199s4199s4199s4199s4199s4063s4063
+t0                                                                                  
+t1                                                                                  
+t2  p17797                                p17084                                p16626    
+t3  p17797            p17794    p17795    p17798p17084            p17081    p17082    p17085p16626    
+t4  p17797    p17796    p17794    p17795    p17798p17084    p17083    p17081    p17082    p17085p16626    
+t5  p17797    p17796    p17794    p17795    p17798p17084    p17083    p17081    p17082    p17085p16626    
+t6          p17796    p17794    p17795                p17083    p17081    p17082                
+t7          p17796                                p17083                                
+t8                                                                                  
+====================================================================================
+bin 4764647647476484764947650476514765247653476544765547656476574765847659476604766147662476634766447665
+std s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4266s4330s4330s4330s4330s4330
+t0                                                                                  
+t1                                                                                  
+t2                                                              p17563                
+t3                                          p17322                p17563                
+t4                                          p17322                p17563                
+t5                                          p17322                                    
+t6                                          p17322                                    
+t7                                                                                  
+t8                                                                                  
+i   ===RouteInfo===
+i   NetName fromM toM fromR toR fromC toC
+i   o_net77 3 3 0 1 22 22
+i   o_net77 3 3 1 2 22 22
+i   o_net77 3 3 2 3 22 22
+i   o_net77 3 3 3 4 22 22
+i   o_net77 3 3 4 5 22 22
+i   o_net77 3 3 5 6 22 22
+i   o_net77 3 3 6 7 22 22
+i   o_net77 3 3 7 8 22 22
+i   o_net77 3 3 8 9 22 22
+i   o_net77 3 3 9 10 22 22
+i   o_net77 3 3 10 11 22 22
+i   o_net77 3 3 11 12 22 22
+i   o_net77 3 3 12 13 22 22
+i   o_net77 3 3 13 14 22 22
+i   o_net77 3 3 14 15 22 22
+i   o_net77 3 3 15 16 22 22
+i   o_net77 3 3 16 17 22 22
+i   o_net77 3 3 17 18 22 22
+i   o_net77 3 3 18 19 22 22
+i   o_net77 3 3 19 20 22 22
+i   net92 3 3 0 1 0 0
+i   net92 3 3 1 2 0 0
+i   net92 3 3 2 3 0 0
+i   net92 3 3 3 4 0 0
+i   net92 3 3 4 5 0 0
+i   net92 3 3 5 6 0 0
+i   net92 3 3 6 7 0 0
+i   net92 3 3 7 8 0 0
+i   net92 3 3 8 9 0 0
+i   net92 3 3 9 10 0 0
+i   net92 3 3 10 11 0 0
+i   net92 3 3 11 12 0 0
+i   net92 3 3 12 13 0 0
+i   net92 3 3 13 14 0 0
+i   net92 3 3 14 15 0 0
+i   net92 3 3 15 16 0 0
+i   net92 3 3 16 17 0 0
+i   net92 3 3 17 18 0 0
+i   net92 3 3 18 19 0 0
+i   net92 3 3 19 20 0 0
+i   o_net99 2 2 12 12 -4 -3
+i   o_net99 2 2 12 12 -3 -2
+i   o_net99 2 2 12 12 -2 -1
+i   net99 2 2 12 12 -1 0
+i   net99 2 2 12 12 0 1
+i   net99 2 2 12 12 1 2
+i   net99 2 2 12 12 2 3
+i   net99 2 2 12 12 3 4
+i   net99 2 2 12 12 4 5
+i   net99 2 2 12 12 5 6
+i   net99 2 2 12 12 6 7
+i   net99 2 2 12 12 7 8
+i   net99 2 2 12 12 8 9
+i   net99 2 2 12 12 9 10
+i   net99 2 2 12 12 10 11
+i   net99 2 2 12 12 11 12
+i   net99 2 2 12 12 12 13
+i   net99 2 2 12 12 13 14
+i   net99 2 2 12 12 14 15
+i   net99 2 2 12 12 15 16
+i   net99 2 2 12 12 16 17
+i   net99 2 2 12 12 17 18
+i   net99 2 2 12 12 18 19
+i   net99 2 2 12 12 19 20
+i   o_net99 2 2 12 12 20 21
+i   o_net99 2 2 12 12 21 22
+i   o_net99 2 2 12 12 22 23
+i   o_net118 3 3 0 1 -3 -3
+i   o_net118 3 3 1 2 -3 -3
+i   o_net118 3 3 2 3 -3 -3
+i   o_net118 3 3 3 4 -3 -3
+i   o_net118 3 3 4 5 -3 -3
+i   o_net118 3 3 5 6 -3 -3
+i   o_net118 3 3 6 7 -3 -3
+i   o_net118 3 3 7 8 -3 -3
+i   o_net118 3 3 8 9 -3 -3
+i   o_net118 3 3 9 10 -3 -3
+i   o_net118 3 3 10 11 -3 -3
+i   o_net118 3 3 11 12 -3 -3
+i   o_net118 3 3 12 13 -3 -3
+i   o_net118 3 3 13 14 -3 -3
+i   o_net118 3 3 14 15 -3 -3
+i   o_net118 3 3 15 16 -3 -3
+i   o_net118 3 3 16 17 -3 -3
+i   o_net118 3 3 17 18 -3 -3
+i   o_net118 3 3 18 19 -3 -3
+i   o_net118 3 3 19 20 -3 -3
+i   o_net293 2 2 16 16 21 22
+i   o_net293 3 3 16 17 23 23
+i   o_net293 3 3 17 18 23 23
+i   o_net293 3 3 18 19 23 23
+i   o_net293 3 3 19 20 23 23
+i   o_net293 2 3 16 16 23 23
+i   o_net293 2 2 3 3 20 21
+i   o_net293 2 2 3 3 21 22
+i   o_net293 2 2 3 3 22 23
+i   o_net293 2 3 3 3 23 23
+i   o_net293 3 3 3 4 23 23
+i   o_net293 3 3 4 5 23 23
+i   o_net293 3 3 5 6 23 23
+i   o_net293 3 3 6 7 23 23
+i   o_net293 3 3 7 8 23 23
+i   o_net293 3 3 8 9 23 23
+i   o_net293 3 3 9 10 23 23
+i   o_net293 3 3 10 11 23 23
+i   o_net293 3 3 11 12 23 23
+i   o_net293 3 3 12 13 23 23
+i   o_net293 3 3 13 14 23 23
+i   o_net293 3 3 14 15 23 23
+i   o_net293 3 3 15 16 23 23
+i   o_net293 2 2 16 16 22 23
+i   o_net293 1 2 16 16 22 22
+i   o_net307 2 2 11 11 -4 -3
+i   o_net307 2 2 11 11 -3 -2
+i   o_net307 2 2 11 11 -2 -1
+i   net307 2 2 11 11 -1 0
+i   net307 2 2 11 11 0 1
+i   net307 2 2 11 11 1 2
+i   net307 2 2 11 11 2 3
+i   net307 2 2 11 11 3 4
+i   net307 2 2 11 11 4 5
+i   net307 2 2 11 11 5 6
+i   net307 2 2 11 11 6 7
+i   net307 2 2 11 11 7 8
+i   net307 2 2 11 11 8 9
+i   net307 2 2 11 11 9 10
+i   net307 2 2 11 11 10 11
+i   net307 2 2 11 11 11 12
+i   net307 2 2 11 11 12 13
+i   net307 2 2 11 11 13 14
+i   net307 2 2 11 11 14 15
+i   net307 2 2 11 11 15 16
+i   net307 2 2 11 11 16 17
+i   net307 2 2 11 11 17 18
+i   net307 2 2 11 11 18 19
+i   net307 2 2 11 11 19 20
+i   o_net307 2 2 11 11 20 21
+i   o_net307 2 2 11 11 21 22
+i   o_net307 2 2 11 11 22 23
+i   o_net564 2 2 5 5 -4 -3
+i   o_net564 2 2 5 5 -3 -2
+i   o_net564 2 2 5 5 -2 -1
+i   o_net565 2 2 8 8 -4 -3
+i   o_net565 2 2 8 8 -3 -2
+i   o_net565 2 2 8 8 -2 -1
+i   net566 3 3 19 20 5 5
+i   net566 2 3 19 19 5 5
+i   o_net566 2 2 19 19 -4 -3
+i   o_net566 2 2 19 19 -3 -2
+i   o_net566 2 2 19 19 -2 -1
+i   net566 2 2 19 19 -1 0
+i   net566 2 2 19 19 0 1
+i   net566 2 2 19 19 1 2
+i   net566 2 2 19 19 2 3
+i   net566 2 2 19 19 3 4
+i   net566 2 2 19 19 4 5
+i   o_net790 2 2 7 7 -4 -3
+i   o_net790 2 2 7 7 -3 -2
+i   o_net790 2 2 7 7 -2 -1
+i   o_net989 1 2 14 14 20 20
+i   net293 3 3 0 1 19 19
+i   net293 2 2 3 3 19 20
+i   net308 3 3 19 20 7 7
+i   net349 3 3 19 20 16 16
+i   net349 3 3 0 1 16 16
+i   net369 3 3 0 1 3 3
+i   net564 2 2 5 5 -1 0
+i   net565 3 3 0 1 10 10
+i   net565 2 2 8 8 -1 0
+i   net790 2 2 7 7 -1 0
+i   net791 3 3 19 20 2 2
+i   net989 3 3 19 20 13 13
+i   net989 2 2 14 14 19 20
+i   net989 3 3 0 1 18 18
+i   net1380 3 3 19 20 14 14
+i   net2663 3 3 0 1 2 2
